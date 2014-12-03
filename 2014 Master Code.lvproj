@@ -158,6 +158,7 @@ DirectoryIndex index.htm
 		<Item Name="Autonomous Sensor Read.vi" Type="VI" URL="../Autonomous Sensor Read.vi"/>
 		<Item Name="Autonomous Time Elapsed.vi" Type="VI" URL="../Autonomous Time Elapsed.vi"/>
 		<Item Name="Get Time.vi" Type="VI" URL="../Get Time.vi"/>
+		<Item Name="Teleop 6 Motor Write.vi" Type="VI" URL="../Teleop 6 Motor Write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -689,7 +690,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0AA3AB7-656F-4F00-8772-659F31450345}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>

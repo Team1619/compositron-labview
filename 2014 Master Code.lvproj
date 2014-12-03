@@ -33,6 +33,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -103,7 +104,6 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Shoot.vi" Type="VI" URL="../Shoot.vi"/>
 			<Item Name="Grab.vi" Type="VI" URL="../Grab.vi"/>
@@ -128,6 +128,12 @@ DirectoryIndex index.htm
 			<Item Name="Gear state.ctl" Type="VI" URL="../Gear state.ctl"/>
 			<Item Name="Kachig.ctl" Type="VI" URL="../Kachig.ctl"/>
 		</Item>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="Autonomous Drive Delay.vi" Type="VI" URL="../Autonomous Drive Delay.vi"/>
+			<Item Name="Auto Two Ball States.ctl" Type="VI" URL="../Auto Two Ball States.ctl"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="Autonomous Two Ball.vi" Type="VI" URL="../Autonomous Two Ball.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 		<Item Name="Joystick 2.ctl" Type="VI" URL="../Joystick 2.ctl"/>
@@ -144,7 +150,13 @@ DirectoryIndex index.htm
 		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		<Item Name="Catch.vi" Type="VI" URL="../Catch.vi"/>
 		<Item Name="Catch States.ctl" Type="VI" URL="../Catch States.ctl"/>
-		<Item Name="Autonomous Drive Delay.vi" Type="VI" URL="../Autonomous Drive Delay.vi"/>
+		<Item Name="Autonomous Actuator References.ctl" Type="VI" URL="../Autonomous Actuator References.ctl"/>
+		<Item Name="Autonomous Actuator Values.ctl" Type="VI" URL="../Autonomous Actuator Values.ctl"/>
+		<Item Name="Autonomous Actuators Write.vi" Type="VI" URL="../Autonomous Actuators Write.vi"/>
+		<Item Name="Autonomous Sensor References.ctl" Type="VI" URL="../Autonomous Sensor References.ctl"/>
+		<Item Name="Autonomous Sensor Values.ctl" Type="VI" URL="../Autonomous Sensor Values.ctl"/>
+		<Item Name="Autonomous Sensor Read.vi" Type="VI" URL="../Autonomous Sensor Read.vi"/>
+		<Item Name="Autonomous Time Elapsed.vi" Type="VI" URL="../Autonomous Time Elapsed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -650,7 +662,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0AA3AB7-656F-4F00-8772-659F31450345}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>

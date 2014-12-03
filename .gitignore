@@ -1,0 +1,6 @@
+*.aliases
+*.lvlps
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*

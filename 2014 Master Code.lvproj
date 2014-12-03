@@ -140,8 +140,8 @@ DirectoryIndex index.htm
 		<Item Name="Retract.vi" Type="VI" URL="../Retract.vi"/>
 		<Item Name="Teleop Drive.vi" Type="VI" URL="../Teleop Drive.vi"/>
 		<Item Name="Teleop Arm and Shoot.vi" Type="VI" URL="../Teleop Arm and Shoot.vi"/>
-		<Item Name="Teleop Gears.vi" Type="VI" URL="../Teleop Gears.vi"/>
 		<Item Name="Teleop Arm.vi" Type="VI" URL="../Teleop Arm.vi"/>
+		<Item Name="Teleop Gears.vi" Type="VI" URL="../Teleop Gears.vi"/>
 		<Item Name="Teleop Shoot.vi" Type="VI" URL="../Teleop Shoot.vi"/>
 		<Item Name="Teleop Roller.vi" Type="VI" URL="../Teleop Roller.vi"/>
 		<Item Name="Teleop Compressor.vi" Type="VI" URL="../Teleop Compressor.vi"/>
@@ -662,7 +662,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0AA3AB7-656F-4F00-8772-659F31450345}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>

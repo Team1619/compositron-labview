@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="CCSymbols" Type="Str">DRIVE_TYPE,PWM;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -158,6 +158,9 @@ DirectoryIndex index.htm
 		<Item Name="Autonomous Sensor Read.vi" Type="VI" URL="../Autonomous Sensor Read.vi"/>
 		<Item Name="Autonomous Time Elapsed.vi" Type="VI" URL="../Autonomous Time Elapsed.vi"/>
 		<Item Name="Get Time.vi" Type="VI" URL="../Get Time.vi"/>
+		<Item Name="Teleop 6 Motor Write.vi" Type="VI" URL="../Teleop 6 Motor Write.vi"/>
+		<Item Name="Motor Speeds Global Variable.vi" Type="VI" URL="../Motor Speeds Global Variable.vi"/>
+		<Item Name="Joystick to Motor Values.vi" Type="VI" URL="../Joystick to Motor Values.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -651,13 +654,6 @@ DirectoryIndex index.htm
 			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Score and Rank Target Objects.vi"/>
 			<Item Name="Process Image for Target.vi" Type="VI" URL="../Process Image for Target.vi"/>
 			<Item Name="Pass States.ctl" Type="VI" URL="../Pass States.ctl"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="2014 Master Code Zip" Type="Zip File">
@@ -689,7 +685,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0AA3AB7-656F-4F00-8772-659F31450345}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
